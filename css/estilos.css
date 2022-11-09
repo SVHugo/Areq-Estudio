@@ -340,6 +340,7 @@ html {
 .section_proyectos_lugar{
     text-align: center;
     padding-top: 10px;
+    color: #ffffff;
 }
 /* ESTILOS PARA EL CONTENEDOR FOOTER */
 .footer{
@@ -453,11 +454,13 @@ html {
     }
     .section_lista::before{
         transition: all 0.5s;
-        left: 20px;
+        left: 5px;
+        width: 4px;
     }
     .section_lista::after{
         transition: all 0.5s;
-        right: 20px;
+        right: 5px;
+        width: 4px;
     }
     .section_proyectos_titulo{
         font-size: 35px;
@@ -471,7 +474,7 @@ html {
         transition: all 0.5s;
     }
     .vertical{
-        left: 25%;
+        left: 20%;
         transition: all 0.5s;
     }
 }
