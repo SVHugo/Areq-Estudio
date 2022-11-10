@@ -441,6 +441,10 @@ html {
         transition: all 0.5s;
         font-size: 35px;
     }
+    .nav{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media screen and (max-width:700px) {
     .header__contenedor{
@@ -470,7 +474,7 @@ html {
         background: transparent;
     }
     .horizontal{
-        top: 10.4%;
+        top: 11%;
         transition: all 0.5s;
     }
     .vertical{
