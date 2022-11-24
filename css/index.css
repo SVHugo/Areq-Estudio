@@ -910,7 +910,20 @@ body {
     .footer{
         padding: 1em;
     }
-
+    .nav__container{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .nav__menu{
+        gap: 30px;
+    }
+    .principal__video-cita-menu{
+        padding: 0em 1em;
+    }
+    .principal__cita{
+        padding: 0em 1rem;
+        font-size: 1.8rem;
+    }
     .header__saneamiento {
         transition: all 0.5s;
         font-size: 35px;
