@@ -291,6 +291,10 @@ body {
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .servicios__ul{
     font-size: 1.6rem;
@@ -408,6 +412,9 @@ body {
 @media screen and (max-width:800px) {
     html{
         font-size: 62.5%;
+    }
+    .servicios__titulo{
+        font-size: 4.5rem;
     }
     .servicios__img{
         gap: 20px;
