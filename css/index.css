@@ -291,7 +291,7 @@ body {
     margin: 0 auto;
     position: relative;
     z-index: 2;
-    display: flex;
+        display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -898,9 +898,17 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .header__container{
+        padding: 0em 2em 1em;
+    }
     .header__contenedor {
         transition: all 0.5s;
         width: 90%;
+    }
+    .principal,
+    .servicios,
+    .footer{
+        padding: 1em;
     }
 
     .header__saneamiento {
