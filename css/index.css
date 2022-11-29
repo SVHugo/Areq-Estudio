@@ -5,7 +5,7 @@ html,
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 :root {
@@ -59,9 +59,11 @@ body {
     display: none;
     font-family: "Arial", sans-serif;
 }
-.principal{
+
+.principal {
     font-family: "Arial", sans-serif;
 }
+
 .principal::before {
     content: "";
     position: absolute;
@@ -115,7 +117,6 @@ body {
 }
 
 .principal__video {
-    background-color: red;
     object-fit: cover;
     width: 460px;
     height: 640px;
@@ -379,25 +380,27 @@ body {
     margin-bottom: 2%;
     padding-left: 5%;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(1,auto);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
     align-items: center;
 }
 
-.proyectos__parrafo{
+.proyectos__parrafo {
     color: var(--bg__proyectos);
 
 }
-.pt__font-size{
+
+.pt__font-size {
     font-size: 4rem;
     margin-left: 1rem;
 
 }
-.pt__color{
+
+.pt__color {
     color: var(--bg__proyectos-black);
 }
 
-.cards__container{
+.cards__container {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -407,33 +410,37 @@ body {
     margin-bottom: 5rem;
     gap: 30px;
     /*grid-auto-rows: 45rem;*/
-    
+
     /*grid-template-columns: repeat(auto-fit,minmax(min(100%,25rem),1fr));*/
 }
-.cards__proyectos{
+
+.cards__proyectos {
     flex-basis: calc(350px - 30px);
     width: 350px;
     background-color: #528BF9;
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 15px  ;    
+    border-radius: 15px;
     min-height: 535px;
 }
-.cards__lugar{
+
+.cards__lugar {
     padding: 21px;
     color: #FFFFFF;
 }
-.cards_fondo_imagen{
+
+.cards_fondo_imagen {
     position: relative;
 }
 
-.cards__imagen{
+.cards__imagen {
     border-radius: 15px 15px 0px 0px;
     filter: drop-shadow(0px -3px 10px rgba(0, 0, 0, 0.25));
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-.cards__informacion{
+
+.cards__informacion {
     border-radius: 15px;
     background: #F49B48;
     color: #FFFFFF;
@@ -444,16 +451,19 @@ body {
     display: grid;
     gap: 10px;
 }
-.cards__fecha{
+
+.cards__fecha {
     margin-top: 5px;
     text-align: end;
 }
-.cards_btn_container{
+
+.cards_btn_container {
     width: 100%;
     display: flex;
     justify-content: end;
 }
-.cards__boton{
+
+.cards__boton {
     text-align: center;
     width: 25%;
     padding: 8px;
@@ -461,17 +471,60 @@ body {
     border: 0px;
     background: #528BF9;
 }
-.cards__boton_texto{
+
+.cards__boton_texto {
     font-family: "Tahoma", "Helvetica";
     color: #FFFFFF;
     font-weight: 900;
 }
-.cards__Antecedente > span{
+.cards__Antecedente>span {
     font-size: 1.8rem;
 }
-.cards__Antecedente{
+.cards__Antecedente {
     font-size: 1.6rem;
 }
+/* ESTILOS PARA EL CONTENEDOR BOCETOS */
+.bocetos__container {
+    width: 100%;
+    font-family: "Bodoni Moda", sans-serif;
+    position: relative;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boceto__titulo_imagen {
+    display: inline-flex;
+    background-color: red;
+    transform: rotate(-90deg);
+    justify-content: center;
+    align-items: center;
+    
+    top: 0%;
+    left: 0%;
+}
+.boceto__img{
+    background-color: green;
+}
+.boceto__titulo {
+    font-size: 4.5rem;
+}
+.boceto__imagen{
+    min-width: 900px;
+    min-height: 650px;
+    background: purple;
+}
+.boceto__indicador{
+    font-size: 3.5rem;
+    background: orange;
+}
+.boceto__circulo{
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+}
+
 /* REPSONSIVE DESIGN */
 /*
      Principal
@@ -487,9 +540,10 @@ body {
 }
 
 @media screen and (max-width: 1600px) {
-    .principal__video-cita-menu{
+    .principal__video-cita-menu {
         margin-top: 3%;
     }
+
     .servicios__listas_img {
         flex-direction: column;
     }
@@ -595,14 +649,16 @@ body {
     .servicios_imagenes {
         width: 100%;
     }
+
     /* CONTENEDOR PROYECTOS */
-    .proyectos__titulo{
+    .proyectos__titulo {
         font-size: 6rem;
         transition: font-size 0.5s;
     }
-    .pt__font-size{
+
+    .pt__font-size {
         font-size: 2.5rem;
-        
+
     }
 }
 
@@ -621,7 +677,7 @@ body {
 
 
 .header__contenedor {
-    background: red;
+
     width: 75%;
     height: 770px;
     position: relative;
